@@ -13,7 +13,7 @@ $(document).ready(function(){
 			member_data+="<td>"+data.data[i].awayTeamName+"</td>"
 			member_data+="<td>"+data.data[i].scheduleId+"</td>"
 			member_data+="<td> https://facility.ticketlink.co.kr/reserve/product/49034?scheduleId="+data.data[i].scheduleId+"</td>"
-			member_data+="<td>https://facility.ticketlink.co.kr/reserve/plan/schedule/"+data.data[i].scheduleId+"?menuIndex=reserve</td>"
+			// member_data+="<td>https://facility.ticketlink.co.kr/reserve/plan/schedule/"+data.data[i].scheduleId+"?menuIndex=reserve</td>"
 
 			member_data+="</tr>";
         }
